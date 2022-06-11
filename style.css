@@ -1,0 +1,60 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+#thecozy {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.menu p {
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.banner {
+    position: absolute;
+    background-image: url('/Tea Cozy/resources/img-mission-background.jpg');
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    top: 69px;
+    width: 1200px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    right: 0px;
+    left: 0px;
+}
+
+.banner .banner-text {
+    background-color: black;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+}
