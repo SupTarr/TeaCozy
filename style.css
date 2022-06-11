@@ -38,7 +38,7 @@ header {
 
 .banner {
     position: absolute;
-    background-image: url('/Tea Cozy/resources/img-mission-background.jpg');
+    background-image: url('Tea Cozy/resources/img-mission-background.jpg');
     background-size: cover;
     z-index: 1;
     display: flex;
