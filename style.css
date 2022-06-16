@@ -1,137 +1,196 @@
 * {
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0px;
+}
+
+@media screen and (max-width: 1100px) {
+  #menu a {
+    display: none;
+  }
+  #location {
+    height: auto;
+  }
+
+  #location h2 {
     background-color: black;
     opacity: 0.9;
-    margin: 0px;
-    border: 1px solid red;
+    margin-top: 20px;
+  }
 }
 
 header {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    top: 0px;
-    height: 69px;
-    width: 100%;
-    border-bottom: 1px solid seashell;
-    z-index: 2;
-    opacity: 1;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0px;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+  opacity: 1;
 }
 
 #thecozy {
-    height: 50px;
-    margin-left: 10px;
+  height: 50px;
+  margin-left: 10px;
 }
 
 #menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  z-index: 2;
+}
+
+#menu a {
+  margin-right: 20px;
 }
 
 .menu a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .banner {
-    position: relative;
-    background-image: url('resources/img-mission-background.jpg');
-    background-size: cover;
-    z-index: 1;
-    display: flex;
-    top: 69px;
-    width: 1200px;
-    height: 700px;
-    justify-content: center;
-    align-items: center;
-    right: 0px;
-    left: 0px;
+  position: relative;
+  background-image: url("resources/img-mission-background.jpg");
+  background-size: cover;
+  z-index: 1;
+  display: flex;
+  top: 69px;
+  margin: 0px auto;
+  height: 700px;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .banner .banner-text {
-    background-color: black;
-    text-align: center;
-    width: 100%;
-    padding: 10px 0px;
-    align-items: center;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px;
+  align-items: center;
 }
 
 .banner .banner-text h2 {
-    font-size: 1.5em;
+  font-size: 1.5em;
+  margin-bottom: 20px;
 }
 
 .tea-of-the-month {
-    margin-top: 150px;
-    text-align: center;
-    width: 1000px;
-    margin: 0px auto;
+  position: relative;
+  top: 69px;
+  margin-top: 150px;
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.tea-of-the-month h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.25em;
 }
 
 .tealist {
-    margin: 0px auto;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-flow: wrap;
+  margin: 0px auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-flow: wrap;
+  max-width: 1000px;
 }
 
 .list img {
-    width: 300px;
-    height: 200px;
-    margin-bottom: 10px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .tealist .list {
-    margin: 15px;
+  margin: 10px;
 }
 
 .location {
-    background-image: url('resources/img-locations-background.jpg');
-    width: 1200px;
-    height: 500px;
-    background-size: cover;
-    align-content: center;
-    text-align: center;
-    display: flexbox;
+  position: relative;
+  top: 69px;
+  background-image: url("resources/img-locations-background.jpg");
+  max-width: 1200px;
+  height: 500px;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
 }
 
 .location h2 {
-    align-content: center;
-    display: flexbox;
-    opacity: 1;
-    background-color: transparent; 
-    font-size: 1.25rem;
+  align-content: center;
+  display: flexbox;
+  opacity: 1;
+  background-color: transparent;
+  font-size: 1.25rem;
 }
 
 .location-list {
-    background-color: transparent;
-    display: inline-flex;
-    justify-content: center;
-    align-content: center;
-    opacity: 1;
-    margin: 0px auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  opacity: 1;
+  margin: 0px auto;
+  flex-shrink: 1;
+  flex-wrap: wrap;
 }
 
 .listloca {
-    width: 300px;
-    margin: 20px;
-    align-content: center;
+  width: 300px;
+  margin: 20px 10px 20px 10px;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.listloca h3 {
+  margin: 20px;
+}
+
+.listloca p {
+  margin: 20px;
 }
 
 footer {
-    text-align: center;
+  position: relative;
+  top: 19px;
+  text-align: center;
+  height: 200px;
+  margin-top: 20px;
 }
 
-footer p {
-    font-size: 1.5rem;
-    font-weight: bold;
+footer h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+footer h5 {
+  margin: 20px;
 }
 
 footer .copy {
-    text-align: left;
+  text-align: left;
+}
+
+html h5 {
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
