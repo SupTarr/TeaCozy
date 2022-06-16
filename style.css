@@ -1,0 +1,138 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    max-width: 1300px;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 2;
+    opacity: 1;
+}
+
+#thecozy {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+.menu p {
+    text-decoration: underline;
+    margin: px;
+}
+
+.banner {
+    position: relative;
+    background-image: url('/Tea Cozy/resources/img-mission-background.jpg');
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    top: 69px;
+    width: 1200px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+    left: 0px;
+}
+
+.banner .banner-text {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.banner .banner-text h2 {
+    font-size: 1.5em;
+}
+
+.tea-of-the-month {
+    margin-top: 150px;
+    text-align: center;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.tealist {
+    margin: 0px auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: wrap;
+}
+
+.list img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.tealist .list {
+    margin: 15px;
+}
+
+.location {
+    background-image: url('../Tea Cozy/resources/img-locations-background.jpg');
+    width: 1200px;
+    height: 500px;
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+    display: flexbox;
+}
+
+.location h2 {
+    align-content: center;
+    display: flexbox;
+    opacity: 1;
+    background-color: transparent; 
+    font-size: 1.25rem;
+}
+
+.location-list {
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    opacity: 1;
+    margin: 0px auto;
+}
+
+.listloca {
+    width: 300px;
+    margin: 20px;
+    align-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer .copy {
+    text-align: left;
+}
