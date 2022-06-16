@@ -4,8 +4,7 @@
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    max-width: 1300px;
-    margin: 0px auto;
+    margin: 0px;
     border: 1px solid red;
 }
 
@@ -26,21 +25,21 @@ header {
     margin-left: 10px;
 }
 
-.menu {
-    display: inline-flex;
+#menu {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-end;
     z-index: 2;
 }
 
-.menu p {
+.menu a {
     text-decoration: underline;
-    margin: px;
 }
 
 .banner {
     position: relative;
-    background-image: url('/Tea Cozy/resources/img-mission-background.jpg');
+    background-image: url('resources/img-mission-background.jpg');
     background-size: cover;
     z-index: 1;
     display: flex;
@@ -92,7 +91,7 @@ header {
 }
 
 .location {
-    background-image: url('../Tea Cozy/resources/img-locations-background.jpg');
+    background-image: url('resources/img-locations-background.jpg');
     width: 1200px;
     height: 500px;
     background-size: cover;
