@@ -60,7 +60,9 @@ header {
 .banner {
   position: relative;
   background-image: url("resources/img-mission-background.jpg");
+  background-position: bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   z-index: 1;
   display: flex;
   top: 69px;
