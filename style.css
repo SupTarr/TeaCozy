@@ -126,6 +126,9 @@ header {
   position: relative;
   top: 69px;
   background-image: url("resources/img-locations-background.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
   max-width: 1200px;
   height: 500px;
   background-size: cover;
