@@ -12,6 +12,27 @@
     display: none;
   }
 
+  a.icon {
+    display: block;
+    margin-right: 20px;
+    transition: all .2s ease-in-out;
+  }
+
+  a.icon:hover {
+    transform: scale(1.25);
+  }
+
+  #menu-hamburger {
+    margin: 89px auto 0px;
+  }
+
+  #menu-hamburger > a {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin: 20px;
+  }
+
   #location {
     height: auto;
   }
@@ -23,10 +44,12 @@
   }
 }
 
+header > div > a {
+  display: none;
+}
+
 header {
   position: fixed;
-  display: flex;
-  align-items: center;
   top: 0px;
   height: 69px;
   width: 100%;
@@ -35,9 +58,22 @@ header {
   opacity: 1;
 }
 
+header div {
+  display: flex;
+  height: 69px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 #thecozy {
   height: 50px;
   margin-left: 10px;
+}
+
+#menu-hamburger {
+  display: none;
 }
 
 #menu {
@@ -49,29 +85,24 @@ header {
   z-index: 2;
 }
 
-#menu a {
+#menu > a {
   margin-right: 20px;
-}
-
-.menu a {
   text-decoration: underline;
 }
 
 .banner {
-  position: relative;
   background-image: url("resources/img-mission-background.jpg");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
   display: flex;
-  top: 69px;
-  margin: 0px auto;
+  margin: 69px auto 0px;
   height: 700px;
   max-width: 1200px;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .banner .banner-text {
@@ -88,8 +119,6 @@ header {
 }
 
 .tea-of-the-month {
-  position: relative;
-  top: 69px;
   margin-top: 150px;
   text-align: center;
   width: 100%;
@@ -97,7 +126,7 @@ header {
 }
 
 .tea-of-the-month h2 {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 10px;
   font-size: 1.25em;
 }
@@ -123,8 +152,6 @@ header {
 }
 
 .location {
-  position: relative;
-  top: 69px;
   background-image: url("resources/img-locations-background.jpg");
   background-position: bottom;
   background-size: cover;
@@ -161,9 +188,13 @@ header {
 
 .listloca {
   width: 300px;
-  margin: 20px 10px 20px 10px;
   align-content: space-between;
   justify-content: center;
+  margin: 15px 0px 15px;
+}
+
+.listloca-center {
+  margin: 15px 40px 15px;
 }
 
 .listloca h3 {
@@ -175,8 +206,6 @@ header {
 }
 
 footer {
-  position: relative;
-  top: 19px;
   text-align: center;
   height: 200px;
   margin-top: 20px;
@@ -192,11 +221,16 @@ footer h5 {
   margin: 20px;
 }
 
-footer .copy {
+.copyright {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.copy {
   text-align: left;
 }
 
-html h5 {
+.copy {
   margin-left: 20px;
   margin-bottom: 20px;
 }

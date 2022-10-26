@@ -2,9 +2,9 @@
 
 ## About The Project
 
-This project was completed as part of `Web Development Foundations`. This was the learn how to build websites capstone project, in which I applied everything I had learned to build a responsive site from scratch. I am tasked with designing and creating the landing page for a new school.
+This project was completed as part of `Web Development Foundations`. I am tasked to create a fictional tea shop website on your own computer.
 
-For this project you will implement the site specified by the wireframes and make all remaining design decisions to complete the site. You can find the wireframes for this project [here](https://content.codecademy.com/courses/freelance-1/capstone-2/colmar-academy-spec.png).
+For this project you will implement the site specified by the wireframes and make all remaining design decisions to complete the site. You can find the wireframes for this project [here](https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg).
 
 ## Technologies
 
