@@ -20,5 +20,5 @@ This project was created with:
 Clone the project
 
 ```sh
-git clone https://github.com/SupTarr/ColmarAcademy.git
+https://github.com/SupTarr/TeaCozy.git
 ```
