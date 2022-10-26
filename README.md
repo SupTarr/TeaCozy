@@ -20,5 +20,5 @@ This project was created with:
 Clone the project
 
 ```sh
-https://github.com/SupTarr/TeaCozy.git
+git clone https://github.com/SupTarr/TeaCozy.git
 ```
