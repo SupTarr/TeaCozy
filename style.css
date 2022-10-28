@@ -92,7 +92,7 @@ header div {
 
 #menu > a {
   margin-right: 20px;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 #menu > a:hover{
@@ -176,7 +176,6 @@ header div {
   justify-content: center;
   flex-direction: column;
   margin: 50px auto;
-  border-radius: 3%;
 }
 
 .location h2 {
@@ -203,7 +202,7 @@ header div {
   align-content: space-between;
   justify-content: center;
   margin: 15px 0px 15px;
-  border-radius: 2%;
+  border-radius: 3%;
 }
 
 .listloca-center {
