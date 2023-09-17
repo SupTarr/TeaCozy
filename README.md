@@ -15,6 +15,7 @@ This project was created with:
 - Git, GitHub and GitHub Pages
 
 ## Installation
+
 ### Run Locally
 
 Clone the project
